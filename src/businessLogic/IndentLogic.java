@@ -23,7 +23,7 @@ public String getPendingIndent(){
 			while(itemRs.next()){
 				
 				s+="<TR><TD></TD><TD>"+itemRs.getString(2)+"</TD><TD>"+itemRs.getDate(3)+"</TD><TD>"+itemRs.getInt(7)+"</TD><TD>"+itemRs.getInt(6)+"</TD><TD>"+itemRs.getInt(5)+"</TD><TD>"+itemRs.getInt(8)+"</TD><TD>"+itemRs.getString(11)+"</TD><TD>"+itemRs.getString(4)+"</TD><TD>"+itemRs.getString(9)+"</TD></TR>";
-				
+				//s
 			}
 		}
 		s+="</table>";
